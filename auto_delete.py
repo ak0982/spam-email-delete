@@ -116,6 +116,8 @@ def delete_messages(query, user_id='me'):
         User id of the Gmail User (default is 'me')
     """
     messages = search(query)
+    print(len(messages))
+
     if messages:
         for message in messages:
             print(message)
@@ -125,15 +127,186 @@ def delete_messages(query, user_id='me'):
         logger.info("There was no message matching the query.")
 
 
-if __name__ == '__main__':
-    logger.info("Deleting messages from abc@gmail.com.")
-    delete_messages('from:update+kjdkku_dkmvm@facebookmail.com' )
+def queryy():
 
-    #delete_messages('mailed-by:facebookmail.com'     )
+
+    logger.info("Deleting messages from abc@gmail.com.")
+    delete_messages('from:mailout@maillist.codeproject.com' )
+
+    delete_messages('mailed-by:student@internshala.com'     )
 
     
  #  update+kjdkku_dkmvm@facebookmail.com
-   # delete_messages('from:noreply@youtube.com'            )
+    delete_messages('from:Codeforces@codeforces.com')    
+
+   
+    delete_messages('from:onlinecourses@nptel.iitm.ac.in'            )
+    delete_messages('from:info@content.sonyliv.com'            )
+    delete_messages('from:info@naukri.com'            )
+    delete_messages('from:no-reply@e.udemymail.com'            )
+    delete_messages('from:no-reply@ncb.flipkart.com'          )
+    delete_messages('from:team@unacademy.com'          )
+    delete_messages('from:no-reply@swiggy.in'            ) 
+
+    delete_messages('from:curiosity-noreply@quora.com'            ) 
+    delete_messages('from:updates@academia-mail.com'            ) 
+    delete_messages('from:student@internshala.com'            ) 
+    delete_messages('from:updates@academia-mail.com'            )
+    delete_messages('from:student@internshala.com'            )
+    delete_messages('from:curiosity-noreply@quora.co'            )
+    delete_messages('from:noreply@youtube.com'            )
+    delete_messages('from:curiosity-noreply@quora.com'            )
+    delete_messages('from:no-reply@m.mail.coursera.org'            )
+    delete_messages('from:recommendations@inspire.pinterest.com'            )
+    delete_messages('from:recommendations@explore.pinterest.com'            )
+    delete_messages('from:demand@mail.adobe.com'            )
+    delete_messages('from:premium@academia-mail.com'            )
+    delete_messages('from:hello@accounts.scribd.com'            )
+    delete_messages('from:digest-noreply@quora.com'            )
+
+    delete_messages('from:noreply@redditmail.com'            )
+    delete_messages('from:no-reply@mail.instagram.com'            )
+    delete_messages('from:udemy@email.udemy.com'            )
+    delete_messages('from:mail@info.paytm.com'            )
+    delete_messages('from:quota-of-quotes-space@quora.com'            )
+    delete_messages('from:noreply@codeforces.com'            )
+    delete_messages('from:no-reply@paytm.com'            )
+    delete_messages('from:no-reply@sampark.gov.in'            )
+    delete_messages('from:no-reply@geeksforgeeks.org'            )
+    delete_messages('from:digest-noreply@quora.com'            )
+    delete_messages('from:news_alerts@shiksha.com'            )
+    delete_messages('from:yonobysbi@sbi.co.in'            )
+    delete_messages('from:no-reply@travel.e-redbus.in'            )
+    delete_messages('from:no-reply@t.mail.coursera.org'            )
+    delete_messages('from:noreply@hedera.com'            )
+    delete_messages('from:security@facebookmail.com'            )
+    delete_messages('from:verify@unimartemaills.com'            )
+
+    delete_messages('from:life-is-beautiful-space@quora.com'            )
+    delete_messages('from:Notification@jio.com'            )
+    delete_messages('from:info@crm.sonyliv.com'            )
+    delete_messages('from:greetings@travel.e-redbus.in'            )
+    delete_messages('from:hackers@hackerrankmail.com'            )
+    delete_messages('from:no-reply@updates.bookmyshow.com'            )
+    delete_messages('from:info@crm.sonyliv.com'            )
+    delete_messages('from:anirbanfuture@gmail.com'            )
+    delete_messages('from:shipment-tracking@amazon.in'            )
+    delete_messages('from:hindi-digest-noreply@quora.com'            )
+    delete_messages('from:auto-confirm@amazon.in'            )
+    delete_messages('from:payments-update@amazon.in'            )
+    delete_messages('from:hello@explore.bookmyshow.com'            )
+
+    delete_messages('from:naukrialerts@naukri.com'            )
+    delete_messages('from:store-news@amazon.in'            )
+    delete_messages('from:history-of-india-space@quora.com'            )
+    delete_messages('from:learn@codecademy.com'            )
+    delete_messages('from:info@easemytrip.com'            )
+    delete_messages('from:hello@newsletter.bookmyshow.com'            )
+    delete_messages('from:do-not-reply@amazon.in'            )
+    delete_messages('from:gssportssgc@iiitg.ac.in'            )
+    delete_messages('from:naukrialerts@naukri.com'            )
+    delete_messages('from:noreply@olacabs.comnoreply@olacabs.com'            )
+    delete_messages('from:noreply-local-guides@google.com'            )
+    delete_messages('from:gswelfaresgc@iiitg.ac.in'            )
+
+    
+    delete_messages('from:info@myntra.com'            )
+    delete_messages('from:recharges@amazon.in'            )
+    delete_messages('from:AmazonPay-balance@amazon.in'            )
+    delete_messages('from:do-not-reply@amazon.in'            )
+    delete_messages('from:naukrialerts@naukri.com'            )
+    delete_messages('from:digest-noreply@quora.com'            )
+
+    delete_messages('from:digest-noreply@quora.com'            )
+    delete_messages('from:digest-noreply@quora.com'            )
+    delete_messages('from:digest-noreply@quora.com'            )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+
+    queryy()
+
+ #    logger.info("Deleting messages from abc@gmail.com.")
+ #    delete_messages('from:mailout@maillist.codeproject.com' )
+
+ #    delete_messages('mailed-by:student@internshala.com'     )
+
+    
+ # #  update+kjdkku_dkmvm@facebookmail.com
+ #    delete_messages('from:Codeforces@codeforces.com')    
+
+   
+ #    delete_messages('from:onlinecourses@nptel.iitm.ac.in'            )
+ #    delete_messages('from:info@content.sonyliv.com'            )
+ #    delete_messages('from:info@naukri.com'            )
+ #    delete_messages('from:no-reply@e.udemymail.com'            )
+ #    delete_messages('from:no-reply@ncb.flipkart.com'          )
+ #    delete_messages('from:team@unacademy.com'          )
+ #    delete_messages('from:no-reply@swiggy.in'            ) 
+
+ #    delete_messages('from:curiosity-noreply@quora.com'            ) 
+ #    delete_messages('from:updates@academia-mail.com'            ) 
+ #    delete_messages('from:student@internshala.com'            ) 
+ #    delete_messages('from:updates@academia-mail.com'            )
+ #    delete_messages('from:student@internshala.com'            )
+ #    delete_messages('from:curiosity-noreply@quora.co'            )
+ #    delete_messages('from:noreply@youtube.com'            )
+ #    delete_messages('from:curiosity-noreply@quora.com'            )
+ #    delete_messages('from:no-reply@m.mail.coursera.org'            )
+ #    delete_messages('from:recommendations@inspire.pinterest.com'            )
+ #    delete_messages('from:recommendations@explore.pinterest.com'            )
+ #    delete_messages('from:demand@mail.adobe.com'            )
+ #    delete_messages('from:premium@academia-mail.com'            )
+ #    delete_messages('from:hello@accounts.scribd.com'            )
+
+   
+
+
 
 
 
